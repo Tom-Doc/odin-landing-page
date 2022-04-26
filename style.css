@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-hero-container {
+    background-color: #1f2937;
+}
+
+.hero-container {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.warm-buns-card {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.top-button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.welcome-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bakery-image {
+    width: 700px;
+    height: 450px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.icon {
+    width: auto;
+    height: 50px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
