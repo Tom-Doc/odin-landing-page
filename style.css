@@ -17,14 +17,17 @@ body {
 }
 
 .hero-container {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
     display: flex;
     justify-content: center;
     margin: 100px;
     margin-left: 400px;
     margin-right: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 .warm-buns-card {
@@ -34,11 +37,11 @@ body {
 
 .top-button {
     padding: 8px 16px;
-    border-radius: 8px;
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 12px;
-    font-weight: bold;
+    font-weight: 900;
+    border: 0;
 }
 
 .welcome-text {
@@ -56,6 +59,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin: 10px;
+    font-size: 14px;
 }
 
 ul {
@@ -74,4 +78,5 @@ ul {
 a {
     color: #E5E7EB;
     text-decoration: none;
+
 }
