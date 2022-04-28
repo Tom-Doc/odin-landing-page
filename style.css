@@ -12,6 +12,7 @@ body {
     flex-direction: column;
 }
 
+/* top portion of landing page from icon and links down Sign up! button and bakery pic */
 .header-hero-container {
     background-color: #1f2937;
 }
@@ -79,4 +80,128 @@ a {
     color: #E5E7EB;
     text-decoration: none;
 
+}
+
+/* mid portion containing "bestsellers" along with pictures and text */
+
+.desserts-wrapper {
+    margin: 100px;
+
+}
+
+.desserts-header {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.desserts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    gap: 50px;
+
+}
+
+.dessert-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: solid #3882F6;
+}
+
+.dessert-text {
+    text-align: center;
+    color: #1f2937;
+    margin-top: -1px;
+}
+
+/* quote section */
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: oblique;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 36px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin-top: -50px;
+    margin-left: -50px;
+
+}
+
+/* bottom section with blue sign up bar */
+
+.sign-up-wrapper {
+    margin: 100px;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 50px;
+    gap: 50px;
+}
+
+h3 {
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.container-text {
+    color: #E5E7EB;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-sign-up {
+    background-color: #3882F6;
+    border: solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 12px 18px;
+}
+
+/* footer */
+
+.footer-wrapper {
+    background-color: #1f2937;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 14px;
+}
+.footer-text {
+    color: #E5E7EB;
 }
